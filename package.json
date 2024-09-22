@@ -1,0 +1,26 @@
+{
+  "name": "realtime_device_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saransh79/realtime_device_tracker.git"
+  },
+  "type": "module",
+  "author": "Saransh Gangwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saransh79/realtime_device_tracker/issues"
+  },
+  "homepage": "https://github.com/saransh79/realtime_device_tracker#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0"
+  }
+}
