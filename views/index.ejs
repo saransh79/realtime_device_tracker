@@ -18,8 +18,9 @@
   </head>
   <body>
     <div id="map"></div>
+
     <script src="/socket.io/socket.io.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAec10Kds6jTiwa4QI_b9NcJ2AbT0An_5k&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=<%= googleMapsApiKey %>&callback=initMap"></script>
 
     <!-- Leaflet cdn -->
     <!-- <script
