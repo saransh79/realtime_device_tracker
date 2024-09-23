@@ -1,9 +1,12 @@
 const socket = io();
 
+const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'];
+const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
 const animatedIcon = L.icon({
-  iconUrl: 'https://cdn-icons-png.flaticon.com/512/10473/10473293.png', // URL to an animated GIF (example: pulsating marker)
-  iconSize: [38, 38], // Adjust the size to match your image
-  iconAnchor: [19, 38], // Anchor to center the icon properly
+  iconUrl: `https://maps.google.com/mapfiles/ms/icons/${randomColor}-dot.png`, 
+  iconSize: [38, 38],
+  iconAnchor: [19, 38],
   popupAnchor: [0, -38],
 });
 
